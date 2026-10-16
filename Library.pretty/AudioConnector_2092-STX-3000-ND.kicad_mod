@@ -1,0 +1,160 @@
+(footprint "AudioConnector_2092-STX-3000-ND"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72df59d5-19be-4686-b125-bfc27debbed7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AudioConnector_2092-STX-3000-ND"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5b9a0c6-ded7-46de-a692-e4821f1ebc9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc449856-828c-4c9b-9737-137576965bbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baa3aeda-c6c2-44f2-8002-a89fdda4ba23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 6)
+		(end 1 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "35a165f3-1d4a-4be9-aa96-46e9b2d10606")
+	)
+	(fp_circle
+		(center 0 13.5)
+		(end 1 13.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "04605818-7452-40a7-ade3-cea77e3c9d93")
+	)
+	(fp_line
+		(start -3.6 3.5)
+		(end 3.6 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bcc85421-4155-45b1-a07c-f88eaf5b6452")
+	)
+	(fp_line
+		(start -3.6 17.5)
+		(end -3.6 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "91cb66a7-5072-4a58-b253-76d52d1efbd4")
+	)
+	(fp_line
+		(start -3.6 17.5)
+		(end 3.6 17.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6a8ff0f7-7521-4291-9de6-eb68967e9391")
+	)
+	(fp_line
+		(start 3.6 17.5)
+		(end 3.6 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a3becadd-aab5-4980-8e79-a50fc0f4f5e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77c63763-448f-4dfa-ab5e-8591664da214")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1 10)
+		(size 1 1.5)
+		(drill oval 0.75 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "9f677263-ed34-4b8a-ba9d-5f61e1f5ecab")
+	)
+	(pad "2" thru_hole roundrect
+		(at -2.5 4.5)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "702baf25-7d6f-4d47-b3ca-5297555f69a9")
+	)
+	(pad "3" thru_hole roundrect
+		(at 2.5 4.5)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "19b79059-f99b-43a1-8718-bb13c8dd2ba9")
+	)
+	(embedded_fonts no)
+)
